@@ -595,6 +595,8 @@ pub mod linalg;
 pub mod matrix_free;
 pub mod sparse;
 
+pub mod banded;
+
 /// de-serialization from common matrix file formats
 #[cfg(feature = "std")]
 pub mod io;
